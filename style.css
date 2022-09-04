@@ -1,0 +1,90 @@
+
+body{
+    background-image: url(imagenes/29569.jpg); 
+}
+.caja-header{
+    width:90%;
+    position: relative;
+}
+.header-logo, .header-h1{
+    display:inline;
+    margin-left:28px; 
+}
+.header-h1{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size:38px;
+}
+main{
+    display:flex;
+    margin-left:80px;
+    margin-bottom:50px;
+    width:980px;
+    position: relative;
+}
+section{
+    margin-top:20px;
+    position: relative;
+    align-items: center;
+    height:600px;
+}
+
+.section-uno{
+    position: absolute;
+    left: 150px;
+}
+
+.section-dos{
+    position:absolute;
+    left: 800px;
+
+}
+.input-texto{
+    width:375px;
+    height:450px;
+    margin-right:40px;
+    position: relative;
+    text-indent: 20px;
+}
+.input-texto::placeholder{
+    position:absolute;
+    font-weight: bold;
+    margin-top:5px;
+    font-size: 16px;
+}
+.mensaje{
+    width: 400px;
+    height: 520px;
+    background-image: url(imagenes/lupa_texto1.jpg);
+}
+.input-texto, .mensaje{
+    border-radius:15px;
+    border: 2px solid orange;
+    padding:10px;
+}
+button{
+    width:180px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    background: #000000;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    margin: 20px 8px; 
+}
+button:hover{
+    background: #4C4348;
+    cursor:pointer;
+}
+button:active{
+    background: #370923;
+}
+.copiar{
+    left:110px;
+}
